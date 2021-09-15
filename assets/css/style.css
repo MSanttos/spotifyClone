@@ -104,6 +104,90 @@ nav.navbar-transparent{
   padding-left: 80px;
 }
 
+footer{
+  background: #000;
+  padding: 50px 0px 20px 0px;
+  position: relative;
+}
+
+footer h4{
+  color: #919496;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+  color: #9bf0e1;
+  text-decoration: none;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li{
+  float: right;
+  margin: 0px 5px;
+}
+
+footer .country{
+  display: flex;
+  justify-content: flex-end;
+  color: #919496;
+}
+
+footer .country a{
+  color: #919496;
+  text-decoration: none;
+}
+
+footer .country a:hover{
+  color: #9bf0e1;
+}
+
+.footer-info{
+  display: flex;
+}
+
+.notices{
+  font-size: 16px;
+  font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  margin: 0 45px 0 -24px;
+  padding: 0 0 0 15px;
+  padding-inline-start: 20px;
+}
+
+ul .notices{
+  text-decoration: none;
+}
+
+ul.navbar-nav.notices {
+  display: flex;
+  flex-direction: unset;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.style-a{
+  color: #919496 !important;
+}
+
+.style-a:hover{
+    color: #9bf0e1 !important;
+    text-decoration: none;
+}
+
+.credentials{
+  margin: -1px -5px 0px 540px;
+}
+
 h1{
   font-weight: 900;
   letter-spacing: -0.05em;
